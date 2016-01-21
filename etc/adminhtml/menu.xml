@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Training_Test::Training" title="Training" module="Training_Test" sortOrder="200" resource="Training_Test::Training"/>
+        <add id="Training_Test::Training_Restricted" title="Restricted" module="Training_Test" sortOrder="201" resource="Training_Test::Training_Restricted" action="test/action/index/" parent="Training_Test::Training"/>
+        <add id="Training_Test::Training_Allowed" title="Allowed" module="Training_Test" sortOrder="210" resource="Training_Test::Training_Allowed" action="test/action/index/secret/1" parent="Training_Test::Training"/>
+    </menu>
+</config>
