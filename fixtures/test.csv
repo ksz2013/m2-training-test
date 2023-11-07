@@ -123,4 +123,32 @@ title,identifier,content,is_active,custom_js,css_global
             </div>
             <!-- FOOTER COLUMN #4 END -->
         </div>
-",1,"",""
+",1,"
+const accordionItemHeaders = document.querySelectorAll("".accordion-item-header"");
+
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener(""click"", event => {
+accordionItemHeader.classList.toggle(""active-acc"");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains(""active-acc"")) {
+      accordionItemBody.classList.toggle(""acc-open"");
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + ""px"";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+      accordionItemBody.classList.remove(""acc-open"");
+
+    }
+
+  });
+});
+
+<script type=""text/x-magento-init"">
+{
+    ""#newsletter-footer"": {
+          ""validation"": {""errorClass"": ""newsletter-error""}
+    }
+}
+</script>
+
+",""
