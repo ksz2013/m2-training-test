@@ -1,0 +1,9 @@
+title,identifier,content,is_active,custom_js,css_global
+"WeltPixel Footer Container",weltpixel_footer_container,"
+{{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_pre-footer""}}
+{{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v1""}}
+{{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v2""}}
+{{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v3""}}
+{{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v4""}}
+{{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v5""}}
+",1
