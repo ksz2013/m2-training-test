@@ -6,4 +6,4 @@ title,identifier,content,is_active,custom_js,css_global
 {{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v3""}}
 {{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v4""}}
 {{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v5""}}
-",1
+",1,"",""
