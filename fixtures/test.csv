@@ -7,3 +7,120 @@ title,identifier,content,is_active,custom_js,css_global
 {{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v4""}}
 {{block class=""Magento\\Cms\\Block\\Block"" block_id=""weltpixel_footer_v5""}}
 ",1,"",""
+"WeltPixel Footer V5",weltpixel_footer_v5,"
+
+<div class=""w footer-v5"">
+    <div class=""mini-logo row""><img loading=""lazy"" alt=""Logo"" src=""{{media url=""wysiwyg/pearl_theme/logo_white.png""}}"" style=""width:100px; margin-left: 15px""></div>
+        <div class=""footer-section2-content row"">
+            <!-- FOOTER COLUMN #1 BEGIN -->
+            <!-- FOOTER COLUMN #2 BEGIN -->
+            <div class=""col-md-2 col-sm-6 col-xs-12 mobile-toggle"">
+                <div class=""accordion"">
+                    <div class=""heading-element no-padding-mob footer-v5-title accordion-item-header m-auto"">Company</div>
+                    <div class=""accordion-item-body m-auto"">
+                        <ul class=""footer-v5-list accordion-item-body-content m-auto"">
+                            <li><a href=""{{store url=""about-us/""}}"">About Us</a></li>
+                            <li><a href=""{{store url=""contact/""}}"">Contact Us</a></li>
+                            <li><a href=""{{store url=""customer-service/""}}"">Customer Service</a></li>
+                            <li><a href=""{{store url=""privacy-policy-cookie-restriction-mode/""}}"">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- FOOTER COLUMN #2 END -->
+            <div class=""clearfix visible-sm-block""></div>
+            <!-- FOOTER COLUMN #3 BEGIN -->
+            <div class=""col-md-2 col-sm-6 col-xs-12 mobile-toggle"">
+                <div class=""accordion"">
+                    <div class=""heading-element no-padding-mob footer-v5-title accordion-item-header m-auto"">Customer Service</div>
+                    <div class=""accordion-item-body m-auto"">
+                        <ul class=""footer-v5-list accordion-item-body-content m-auto"">
+                            <li><a href=""{{store url=""/""}}"" title=""My Account"">My Account</a></li>
+                          <li><a href=""{{store url=""/""}}"" title=""Track My Order"">Track My Order</a></li>
+                          <li><a href=""{{store url=""/""}}"" title=""Shipping & Returns"">Shipping & Returns</a></li>
+                          <li><a href=""{{store url=""/""}}"" title=""Advanced Search"">FAQs</a></li>
+                          <li><a target=""_blank"" href=""https://www.weltpixel.com/resources/PearlTheme/User-Guide-WeltPixel-Pearl-Theme-Magento2.html"" title=""Documentation"">Documentation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class=""col-md-2 col-sm-6 col-xs-12 mobile-toggle"">
+                <div class=""accordion"">
+                    <div class=""heading-element no-padding-mob footer-v5-title accordion-item-header m-auto"">Connect with Us</div>
+                    <div class=""accordion-item-body m-auto social-icons-section"">
+                        <div class=""mg-mobile"">
+                            <!-- FOOTER SOCIAL-ICONS BEGIN -->
+                            <div class=""social-wrapper"">
+                                <a href=""#"" class=""social-icons si-rounded si-borderless si-facebook""  aria-label=""Facebook Social Icon"">
+                                    <i class=""icon-facebook""> </i>
+                                    <i class=""icon-facebook""> </i>
+                                </a>
+                                <a href=""#"" class=""social-text"">Facebook</a>
+                            </div>
+                            <div class=""social-wrapper"">
+                                <a href=""#"" class=""social-icons si-rounded si-borderless si-twitter""  aria-label=""Twitter Social Icon"">
+                                    <i class=""icon-twitter""> </i>
+                                    <i class=""icon-twitter""> </i>
+                                </a>
+                                <a href=""#"" class=""social-text"">Twitter</a>
+                            </div>
+                            <div class=""social-wrapper"">
+                                <a href=""#"" class=""social-icons si-bor si-rounded si-borderless si-instagram""  aria-label=""Instagram Social Icon"">
+                                    <i class=""icon-instagram""> </i>
+                                    <i class=""icon-instagram""> </i>
+                                </a>
+                                <a href=""#"" class=""social-text"">Instagram</a>
+                            </div>
+                            <div class=""social-wrapper"">
+                                <a href=""#"" class=""social-icons si-rounded si-borderless si-vimeo""  aria-label=""Vimeo Social Icon"">
+                                    <i class=""icon-vimeo""> </i>
+                                    <i class=""icon-vimeo""> </i>
+                                </a>
+                                <a href=""#"" class=""social-text"">Vimeo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=""col-md-2 separation-border""></div>
+            <!-- FOOTER COLUMN #3 END -->
+            <!-- FOOTER COLUMN #4 BEGIN -->
+            <div class=""col-md-3 col-sm-6 col-xs-12 mobile-toggle"">
+                <div class=""accordion"">
+                    <div class=""heading-element no-padding-mob footer-v5-title accordion-item-header m-auto"">SUBSCRIBE TO OUR NEWSLETTER</div>
+                    <div class=""accordion-item-body m-auto"">
+                            <!-- FOOTER NEWSLETTER BLOCK BEGIN -->
+                            <div class=""newsletter-subscribe"">
+                                <form action=""{{store url=""newsletter/subscriber/new/""}}"" method=""post"" id=""newsletter-footer"" >
+                                    <div class=""form-group"">
+                                        <input name=""email"" type=""email"" id=""newsletter-bottom"" placeholder=""Enter your email address""
+                                            required=""true""
+                                            class=""input-text required-entry validate-email""/>
+                                        <button class=""button newsletter-btn"" title=""Subscribe"" type=""submit"">
+                                            <span>Sign Up</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <a class=""white-lnk"">
+                                <p class=""details-v5"">
+                                    By clicking <a href=""#"" class=""underline"">""submit,""</a> you agree to receive emails from <br>
+                                    pearl and accept our <a href=""#"" class=""underline"">web terms of use</a> and <a href=""#"" class=""underline"">privacy and cookie policy.</a>
+                                </p>
+                            </a>
+                </div>
+                 <div class=""heading-element no-padding-mob footer-v5-title title-stores"">Stores</div>
+                    <ul class=""footer-v5-list horizontal-list"">
+                        <li><a href=""{{store url=""/""}}"" title=""New York"" class=""first-store"">New York</a></li>
+                        <li><a href=""{{store url=""/""}}"" title=""Los Angeles"" class=""stores"">Los Angeles</a></li>
+                        <li><a href=""{{store url=""/""}}"" title=""London"" class=""stores"">London</a></li>
+                        <li><a href=""{{store url=""/""}}"" title=""Paris"" class=""last-store"">Paris</a></li>
+                    </ul>
+            </div>
+                    <!-- FOOTER NEWSLETTER BLOCK END -->
+                </div>
+            </div>
+            <!-- FOOTER COLUMN #4 END -->
+        </div>
+",1,"",""
