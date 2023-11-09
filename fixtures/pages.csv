@@ -94,3 +94,263 @@ Tops</h2>
 .theme-pearl .page-wrapper .page-main .columns, .page.messages {width: 100% !important; max-width: 100% !important}
 .page-wrapper .breadcrumbs {display: none;}
 .theme-pearl .page-wrapper .page-main {padding: 0px;}","",
+"Home Page V2",1column,,,home-page-v2,"","
+<section id=""slider"" class=""container-v2 slider-parallax full-screen parallax-disabled"">
+  <div class=""full-screen"" style=""background: url( {{media url=""wysiwyg/pearl_theme/b10.jpg""}} ); background-size: cover;background-position:center center;"">
+      <div class=""clearfix"">
+          &nbsp;
+      </div>
+  </div>
+</section>
+
+<div id=""content"" class=""container-v2 pos-bg"">
+
+    <h2 class=""center hp-title""><span class=""subtitle"">A perfect fit</span>
+        Best Categories</h2>
+
+    <div class=""row topmargin bottommargin bottommargin-mob no-margin-mob container-v2"">
+        <div class=""col-xs-12 col-sm-4"">
+            <div class=""promo"">
+                <div class=""promo-image"">
+                    <a href="""">
+                        <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-1.jpg""}}"" alt="""" />
+                        <div class=""promo-overlay"">
+                            <div class=""title"">Party jeans outfit
+                                <span>A perfect fit</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class=""col-xs-12 col-sm-4 mg-top-img-mob"">
+            <div class=""promo"">
+                <div class=""promo-image"">
+                    <a href="""">
+                        <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-2.jpg""}}"" alt="""" />
+                        <div class=""promo-overlay"">
+                            <div class=""title"">Somewhere anywhere
+                                <span>New season inspiration</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class=""col-xs-12 col-sm-4 mg-top-img-mob"">
+            <div class=""promo"">
+                <div class=""promo-image"">
+                    <a href="""">
+                        <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-3.jpg""}}"" alt="""" />
+                        <div class=""promo-overlay"">
+                            <div class=""title"">A capsule collection
+                                <span>Untitled dress</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=""container-v2 sec-v2 nopaddingbottom"">
+    <div class=""row"">
+        <h2 class=""center hp-title""><span class=""subtitle"">The hottest</span>
+            New Arrivals</h2>
+
+        <div class=""col-xs-12 col-sm-4"">
+            <div class=""promo"">
+                <div class=""promo-image"">
+                    <a href="""">
+                        <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-1.1.jpg""}}"" alt="""" />
+                        <div class=""promo-overlay"">
+                            <div class=""title"">Romantic layering
+                                <span>New dresses</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class=""col-xs-12 col-sm-8 mg-top-img-mob"">
+            <div class=""col-xs-12 col-sm-12"" >
+                <div class=""col-xs-12 col-sm-4"">
+                    <div class=""promo"">
+                        <div class=""promo-image"">
+                            <a href="""">
+                                <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-1.2.jpg""}}"" alt="""" />
+                                <div class=""promo-overlay"">
+                                    <div class=""title"">Story with remixed
+                                        <span>Not only jeans</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=""col-xs-12 col-sm-4 mg-top-img-mob"">
+                    <div class=""promo"">
+                        <div class=""promo-image"">
+                            <a href="""">
+                                <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-1.3.jpg""}}"" alt="""" />
+                                <div class=""promo-overlay"">
+                                    <div class=""title"">Light before dark
+                                        <span>Online exclusive</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=""col-xs-12 col-sm-4 mg-top-img-mob"">
+                    <div class=""promo"">
+                        <div class=""promo-image"">
+                            <a href="""">
+                                <img loading=""lazy"" width=""799"" height=""1200"" src=""{{media url=""wysiwyg/pearl_theme/homev2-1.4.jpg""}}"" alt="""" />
+                                <div class=""promo-overlay"">
+                                    <div class=""title bottommargin-mob"">Breeze mid-summer
+                                        <span>Online exclusive</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=""col-xs-12 col-sm-12"">
+                <h2 class=""center hp-subtitle hidden-xs"">
+                    <span class=""subtitle"">New Collection</span>
+                    <span class=""block-span text-initial"">Re-write this season's story</span>
+                    <span class=""text-lowercase font-weight-normal"">with</span>
+                    <span class=""font-weight-normal text-lowercase"">minimal style</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PARALLAX SECTION BEGIN -->
+<div class=""section parallax nomargin notopborder"" style=""background-image: url('{{media url=""wysiwyg/pearl_theme/b11.jpg""}}'); padding-bottom: 9%;"" data-stellar-background-ratio=""0.3"">
+                    <div class=""clearfix"">
+
+<h2 class=""center hp-title""><span class=""subtitle"">The hottest</span>
+New Arrivals</h2>
+
+<div class=""block newsletter container-v2"">
+    <div class=""title""><strong>Newsletter</strong></div>
+    <div class=""content padding-news-mob"">
+        <form class=""form subscribe hp-newsletter-v1"" novalidate=""novalidate"" action=""{{store url=""newsletter/subscriber/new/""}}"" method=""post"" id=""newsletter-home-page-v2"">
+            <div class=""field newsletter"">
+                <div class=""control"">
+                    <input name=""email"" type=""email"" id=""newsletter-home"" placeholder=""Enter your email address"" data-validate=""{required:true, 'validate-email':true}"">
+                </div>
+            </div>
+            <div class=""actions"">
+                <button class=""action subscribe primary"" title=""Subscribe"" type=""submit"">
+                    <span>Subscribe</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+                    </div>
+</div>
+<!-- PARALLAX SECTION END-->
+
+<div class=""row"">
+<h2 class=""center hp-title""><span class=""subtitle"">Take a look at</span>
+Staff picks</h2>
+
+{{widget type=""WeltPixel\OwlCarouselSlider\Block\Slider\Products"" products_type=""new_products"" type_name=""WeltPixel - Products Carousel Widget""}}
+
+</div>
+
+
+
+<!-- SOCIAL SECTION BEGIN -->
+<div class=""section social-container nomargin notopborder container-v2"" style=""background-image: url('{{media url=""wysiwyg/pearl_theme/b12.jpg""}}'); padding: 10% 0;background-size:cover;"" >
+                    <div class=""clearfix center"">
+
+<h2 class=""hp-title before-footer-title""><span class=""subtitle"">Be Social</span>
+#summerfashion</h2>
+
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-facebook"" aria-label="Facebook Social Icon">
+    <i class=""icon-facebook""> </i>
+    <i class=""icon-facebook""> </i>
+</a>
+
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-twitter"" aria-label="Twitter Social Icon">
+    <i class=""icon-twitter""> </i>
+    <i class=""icon-twitter""> </i>
+</a>
+
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-pinterest"" aria-label="Pinterest Social Icon">
+    <i class=""icon-pinterest""> </i>
+    <i class=""icon-pinterest""> </i>
+</a>
+
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-youtube"" aria-label="Youtube Social Icon">
+    <i class=""icon-youtube""> </i>
+    <i class=""icon-youtube""> </i>
+</a>
+
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-chat"" aria-label="Chat Social Icon">
+    <i class=""icon-chat""> </i>
+    <i class=""icon-chat""> </i>
+</a>
+
+</div>
+<!-- SOCIAL SECTION END-->
+",1,,,,,,,,"
+.theme-pearl .columns, .column.main {
+    padding-bottom: 0 !important;
+}
+
+.theme-pearl .font-weight-normal{
+   font-weight:normal;
+}
+
+.theme-pearl .page-wrapper .page-main {
+    max-width: 100%;
+    width: 100%;
+    padding: 0px;
+}
+.theme-pearl .page-wrapper .page-main .columns, .theme-pearl .page-wrapper .page-main .page.messages {
+    max-width: 100% !important;
+    width: 100%!important;
+    margin: 0 auto !important;
+}
+.page-wrapper .breadcrumbs  {display: none;}
+.product-item-name > a{
+   text-transform: uppercase;
+}
+.page-footer{
+   margin-top: 0px;
+}
+","
+.page-main {
+    margin-top: -175px;
+}
+.promo-overlay .title {
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+    padding: 0;
+}
+","
+<script type=""text/x-magento-init"">
+{
+    """#newsletter-home-page-v2"": {
+          """validation"": {""errorClass"": ""mage-error""}
+    }
+}
+</script>
+"
