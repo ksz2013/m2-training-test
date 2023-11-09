@@ -251,4 +251,12 @@ Staff picks</h2>
     bottom: 40%;
     padding: 0;
 }
-",""
+","
+<script type=""text/x-magento-init"">
+{
+    ""#newsletter-home-page-v2"": {
+          ""validation"": {""errorClass"": ""mage-error""}
+    }
+}
+</script>
+"
