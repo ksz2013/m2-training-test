@@ -1,5 +1,5 @@
 title,page_layout,meta_keywords,meta_description,identifier,content_heading,content,is_active,sort_order,layout_update_xml,custom_theme,custom_root_template,custom_layout_update_xml,custom_theme_from,custom_theme_to,css_global,css_desktop
-"Home Page V2",1column,,,home-page-v2,,"
+"Home Page V2",1column,,,home-page-v2,"","
 <section id=""slider"" class=""container-v2 slider-parallax full-screen parallax-disabled"">
   <div class=""full-screen"" style=""background: url( {{media url=""wysiwyg/pearl_theme/b10.jpg""}} ); background-size: cover;background-position:center center;"">
       <div class=""clearfix"">
@@ -147,11 +147,12 @@ title,page_layout,meta_keywords,meta_description,identifier,content_heading,cont
 
 <h2 class=""center hp-title""><span class=""subtitle"">The hottest</span>
 New Arrivals</h2>
+{{block type=""newsletter/subscribe"" name=""left.newsletter"" template=""newsletter/subscribe.phtml""}}
 
 <div class=""block newsletter container-v2"">
     <div class=""title""><strong>Newsletter</strong></div>
     <div class=""content padding-news-mob"">
-        <form class=""form subscribe hp-newsletter-v1"" novalidate=""novalidate"" action=""{{store url=""newsletter/subscriber/new/""}}"" method=""post"" id=""newsletter-home-page-v2"">
+        <form class=""form subscribe hp-newsletter-v1"" novalidate=""novalidate"" data-mage-init='{""validation"": {""errorClass"": ""mage-error""}}' action=""{{store url=""newsletter/subscriber/new/""}}"" method=""post"" id=""newsletter-validate-detail"">
             <div class=""field newsletter"">
                 <div class=""control"">
                     <input name=""email"" type=""email"" id=""newsletter-home"" placeholder=""Enter your email address"" data-validate=""{required:true, 'validate-email':true}"">
@@ -187,29 +188,29 @@ Staff picks</h2>
 <h2 class=""hp-title before-footer-title""><span class=""subtitle"">Be Social</span>
 #summerfashion</h2>
 
-<a href=""#"" class=""social-icons si-rounded si-light si-large si-facebook"" aria-label="Facebook Social Icon">
-    <i class=""icon-facebook""> </i>
-    <i class=""icon-facebook""> </i>
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-facebook"">
+    <i class=""icon-facebook""></i>
+    <i class=""icon-facebook""></i>
 </a>
 
-<a href=""#"" class=""social-icons si-rounded si-light si-large si-twitter"" aria-label="Twitter Social Icon">
-    <i class=""icon-twitter""> </i>
-    <i class=""icon-twitter""> </i>
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-twitter"">
+    <i class=""icon-twitter""></i>
+    <i class=""icon-twitter""></i>
 </a>
 
-<a href=""#"" class=""social-icons si-rounded si-light si-large si-pinterest"" aria-label="Pinterest Social Icon">
-    <i class=""icon-pinterest""> </i>
-    <i class=""icon-pinterest""> </i>
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-pinterest"">
+    <i class=""icon-pinterest""></i>
+    <i class=""icon-pinterest""></i>
 </a>
 
-<a href=""#"" class=""social-icons si-rounded si-light si-large si-youtube"" aria-label="Youtube Social Icon">
-    <i class=""icon-youtube""> </i>
-    <i class=""icon-youtube""> </i>
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-youtube"">
+    <i class=""icon-youtube""></i>
+    <i class=""icon-youtube""></i>
 </a>
 
-<a href=""#"" class=""social-icons si-rounded si-light si-large si-chat"" aria-label="Chat Social Icon">
-    <i class=""icon-chat""> </i>
-    <i class=""icon-chat""> </i>
+<a href=""#"" class=""social-icons si-rounded si-light si-large si-chat"">
+    <i class=""icon-chat""></i>
+    <i class=""icon-chat""></i>
 </a>
 
 </div>
@@ -250,4 +251,4 @@ Staff picks</h2>
     bottom: 40%;
     padding: 0;
 }
-",
+"
