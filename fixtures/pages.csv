@@ -1,5 +1,5 @@
 title,page_layout,meta_keywords,meta_description,identifier,content_heading,content,is_active,sort_order,layout_update_xml,custom_theme,custom_root_template,custom_layout_update_xml,custom_theme_from,custom_theme_to,css_global,css_desktop
-"Home Page V2",1column,,,home-page-v2,"","
+"Home Page V2",1column,,,home-page-v2,,"
 <section id=""slider"" class=""container-v2 slider-parallax full-screen parallax-disabled"">
   <div class=""full-screen"" style=""background: url( {{media url=""wysiwyg/pearl_theme/b10.jpg""}} ); background-size: cover;background-position:center center;"">
       <div class=""clearfix"">
